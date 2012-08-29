@@ -1,7 +1,6 @@
 package bootstrap.liftweb
 
 import code._
-import code.config._
 import net.liftweb._
 import net.liftweb.common._
 import net.liftweb.http._

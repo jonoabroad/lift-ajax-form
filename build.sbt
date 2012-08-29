@@ -11,6 +11,7 @@ resolvers += "snapshots" at "https://oss.sonatype.org/content/repositories/snaps
 
 {
   val liftVersion = "2.5-SNAPSHOT"
+  //val liftVersion = "2.4"
   libraryDependencies ++= Seq(
   "net.liftweb"     %% "lift-webkit"          % liftVersion             % "compile->default" ,
     "org.eclipse.jetty" % "jetty-webapp" % "7.1.0.RC1" % "container"

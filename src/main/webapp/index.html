@@ -1,12 +1,21 @@
 <section class="lift:surround?with=default;at=content">
+    <div class="lift:Msgs?showAll=true"></div>
 
-    <div class="lift:AjaxExample">
-     <form class="lift:form.ajax">
-      <input type="text" name="info" value="" />
-      <input type="submit" name="sb" value="go!" />
-     </form>
-     <div id="result"></div>
-    </div>
+    <span lift="Login">
+        <form class="lift:form.ajax">
+          <fieldset>
+            <div class="control-group">
+              <label class="control-label" for="email"></label>
+              <div class="controls">
+                <input id="id_email" size="32" name="email" type="text" value="" />
+              </div>
+            </div>
+          </fieldset>
+          <div class="form-actions">
+            <input type="submit" value="Submit"></input>
+          </div>
+        </form>
+    </span>
 
 </section>
 
